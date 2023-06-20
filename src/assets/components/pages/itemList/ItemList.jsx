@@ -1,10 +1,14 @@
-import ItemListContainer from "./ItemListContainer"
+import "./ItemList.css"
 
 
 const ItemList = ({saludo}) => {
     return (
-        <ItemListContainer saludo={saludo}/>
+        <div>
+            <h1>{saludo}</h1>
+        </div>
     )
 }
 
 export default ItemList
+
+

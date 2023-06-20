@@ -1,10 +1,10 @@
-import "./ItemList.css"
+import ItemList from "./ItemList"
 
-const ItemListContainer = ({saludo}) => {
+const ItemListContainer = () => {
+    let saludo = "Bienvenida a Nuestra Joyería"
+
     return (
-        <div>
-            <h1>{saludo}</h1>
-        </div>
+        <ItemList saludo={saludo} />
     )
 }
 
