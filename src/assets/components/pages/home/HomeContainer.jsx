@@ -1,11 +1,13 @@
-import Home from "./Home"
 
-const HomeContainer = () => {
-    // logica
-    //le mandamos al home lo que necesite como props
-    let nombre = "Mónica"
+import ItemList from "../itemList/ItemList"
+import "./Home.css"
+
+const HomeContainer = ({usuario,saludo}) => {
     return (
-        <Home nombre={nombre}/>
+        <div>
+            <h2>Hola {usuario}</h2>
+            <ItemList saludo={saludo}/>
+        </div>
     )
 }
 

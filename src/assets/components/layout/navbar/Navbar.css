@@ -31,13 +31,6 @@ a:hover {
     color: white;
 }
 
-.cartProperties {
-    color: var(--primarioStrong);
-    size:30";
-}
-.cartProperties:hover {
-    color: white;
-}
 body {
     background-color: var(--primario);    
 }
@@ -45,4 +38,12 @@ body {
 img {
     width: 70px;
     height: 70px;
+}
+
+.cartIcon {
+    color: var(--primarioStrong);
+    size:30";
+}
+.cartIcon:hover {
+    color: white;
 }

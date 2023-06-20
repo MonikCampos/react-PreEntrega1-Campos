@@ -1,8 +1,9 @@
-import "./Home.css"
+import HomeContainer from "./HomeContainer"
 
-const Home = ( {nombre} ) => {
-    //html
-    return <h2>Hola {nombre}</h2>;
+const Home = () => {
+    let usuario = "Mónica"
+    let saludo = "Bienvenida a Nuestra Joyería"
+    return <HomeContainer usuario={usuario} saludo={saludo}/>
 };
 
 export default Home;

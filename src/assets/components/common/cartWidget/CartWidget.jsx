@@ -1,10 +1,9 @@
-import { FaShoppingCart } from "react-icons/fa";
+import CardWidgetContainer from "./CartWidgetContainer";
+
 
 const CartWidget = () => {
     return (
-        <div>
-            <FaShoppingCart className="cartProperties"/>
-        </div>
+        <CardWidgetContainer />
     );
 };
 
