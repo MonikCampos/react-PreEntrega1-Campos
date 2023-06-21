@@ -6,13 +6,14 @@
     --terciario: #0E2940;
     --colorNavbar: #0C203B;
 }
+/* Luego, los colores de la paleta seran usados desde theme Config */
 
-h2 {
+h3 {
     color: var(--terciario);
     text-align: center;
 }
 
-h2:hover {
+h3:hover {
     color: var(--secundario);
     transform: scale(1.02);
     transition: all 0.9s;

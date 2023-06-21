@@ -19,16 +19,17 @@
 .containerCategories{
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 25px;
 }
 
-a {
-    color: var(--primarioStrong);
-    text-transform: uppercase;
-    text-decoration: none;
+.containerBrand{
+    display: flex;
+    gap: 7px;
 }
-a:hover {
-    color: white;
+
+.brandText {
+    color: var(--primario);
+    background-color: var(--colorNavbar);
 }
 
 body {
@@ -38,12 +39,4 @@ body {
 img {
     width: 70px;
     height: 70px;
-}
-
-.cartIcon {
-    color: var(--primarioStrong);
-    size:30";
-}
-.cartIcon:hover {
-    color: white;
 }
